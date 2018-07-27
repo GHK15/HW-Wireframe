@@ -25,12 +25,7 @@ body {
     background-color: #eee;
 }
 
-/* #container {
-    display: flex;
-} */
-
 #section {
-    /* flex: 1; */
     padding: 20px;
     width: 500px;
     height: 300px;
@@ -49,33 +44,9 @@ body {
     left: 20px;
     width: 500px;
     height: 240px;
-    /* margin: auto;
-    margin-top: 25%; */
     background: #777;
     color: #ebebeb;
 }
-
-/* ---
-examples
-#b{
-    position:absolute;
-    top:75px;
-    left:100px;
-    background:cyan;
-    width:75px;
-    height:100px;
-}
-
-#c{
-    position:absolute;
-    background:white;
-    top:10px;
-    left:10px;
-    width:40px;
-    height:40px;
-}
----- */
-
 
 #h1h2h3 {
     position:absolute;
@@ -100,7 +71,7 @@ examples
 
 #aside {
     position: absolute;
-    float: left;
+    /* float: left; */
     padding: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
@@ -112,17 +83,10 @@ examples
     right: 96px;
 }
 
-#mainbox {
+/* #mainbox {
     position: relative;
     width: 960px;
-}
 
-/* #section, #aside {
-    width:100px;
-    height:100px;
-    border:1px solid red;
-    margin-right:10px;
-    float:left;
 } */
 
 #footer {
